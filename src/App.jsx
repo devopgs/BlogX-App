@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='max-w-[1400px] mx-auto'>
+      <div className='max-w[1320px] mx-auto'>
         <div className='grid gap-6 grid-cols-[30%_auto]'>
           <Register/>
           <UserList/>
