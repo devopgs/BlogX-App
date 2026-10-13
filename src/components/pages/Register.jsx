@@ -119,7 +119,7 @@ export default function Register() {
                 >
                   Register
                   <a
-                    href="/dashboard"
+                    href="/userdata"
                     className="font-medium text-primary-600 hover:underline dark:text-white"
                   ></a>
                 </button>

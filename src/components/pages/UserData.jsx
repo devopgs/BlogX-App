@@ -1,10 +1,9 @@
 import React from 'react'
 
-
-
-export default function UserList() {
+export default function UserData() {
   return (
     <div>
+        User List
       
     </div>
   )
