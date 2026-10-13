@@ -14,10 +14,6 @@ export default function Post() {
 
     let { _id } = useParams()
 
-
-
-
-
     const [formData, setFormData] = useState({
         image:"",
         title: "",
@@ -216,13 +212,8 @@ export default function Post() {
                                         />
                                     </div>
                                 </div>
-                                <button
-                                    
-                                    type="submit"
-                                   
-                                    
-
-
+                                <button                                    
+                                    type="submit"  
                                     className="text-white inline-flex items-center bg-cyan-400 hover:bg-blue-600 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                                 >
                                     {

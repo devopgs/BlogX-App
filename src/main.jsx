@@ -13,6 +13,7 @@ import Post from './components/pages/Post.jsx'
 
 
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
@@ -22,20 +23,8 @@ createRoot(document.getElementById('root')).render(
           <Route path='/login' element={<Login/>}/>
           <Route path='/dashboard' element={<Dashboard/>}/>          
           <Route path='/register' element={<Register/>}/>
-          <Route path='/Post' element={<Post/>}/>
-          <Route path='/forgotpassword' element={<forgotPassword/>}/>
-          
-          
-          
-          
-          
-
-          
-          
-
+          <Route path='/Post' element={<Post/>}/>               
           </Route>
-                      
-          
       </Routes>
     </BrowserRouter>
 
